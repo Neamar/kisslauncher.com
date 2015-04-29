@@ -1,0 +1,36 @@
+header
+{
+	padding-top: 10vh;
+	background-color: #66BB6A;
+	height: 100vh;
+	color: #fff;
+}
+
+section
+{
+
+}
+
+footer
+{
+
+}
+
+h1, h2
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+	font-weight: 100;
+	font-size: 32px;
+	padding-bottom: 25px;
+}
+
+header strong
+{
+	font-weight: 300;
+	font-size: 42px;
+	display: block;
+}
