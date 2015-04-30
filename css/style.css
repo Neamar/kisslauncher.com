@@ -18,7 +18,7 @@ footer
 
 }
 
-h1, h2, .beta
+h1, h2, h3, .beta
 {
 	font-family: 'Roboto', sans-serif;
 }
@@ -45,9 +45,36 @@ header strong
 	text-transform: uppercase;
 }
 
+h3
+{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
 hr {
   margin-top: 35px;
   margin-bottom: 30px;
   border: 0;
   border-top: 1px solid #81C784;
+}
+
+#features
+{
+	margin-bottom: 20px;
+}
+
+.feature
+{
+	background-color: #f5f5f5;
+	border-style: solid;
+    border-width: 1px;
+	border-color: #fff;
+	padding-top: 20px;
+	padding-bottom:20px;
+	height: 30vh;
+}
+
+i
+{
+	color: #66BB6A;
 }
