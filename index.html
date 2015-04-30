@@ -83,34 +83,34 @@
 		<div class="container">
 			<h2 class="text-center" id="features">What's inside ?</h2>
 			<div class="row">
-				<div class="col-xs-4 text-center feature">
+				<div class="col-sm-4 text-center feature">
 					<i class="fa fa-heart fa-5x"></i>
 					<h3>4 words</h3>
 					<p>Keep it simple stupid</p>
 				</div>
-				<div class="col-xs-4 text-center feature">
+				<div class="col-sm-4 text-center feature">
 					<i class="fa fa-compress fa-5x"></i>
 					<h3>< 220 kb</h3>
 					<p>Small sized</p>
 				</div>
-				<div class="col-xs-4 text-center feature">
+				<div class="col-sm-4 text-center feature">
 					<i class="fa fa-bolt fa-5x"></i>
 					<h3>Save battery life</h3>
 					<p>Optimized battery drain</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-4 text-center feature">
+				<div class="col-sm-4 text-center feature">
 					<i class="fa fa-circle-o fa-5x"></i>
 					<h3>New experience</h3>
 					<p>Experience android in a new way</p>
 				</div>
-				<div class="col-xs-4 text-center feature">
+				<div class="col-sm-4 text-center feature">
 					<i class="fa fa-search fa-5x"></i>
 					<h3>Smart search</h3>
 					<p>Search everything that you need</p>
 				</div>
-				<div class="col-xs-4 text-center feature">
+				<div class="col-sm-4 text-center feature">
 					<i class="fa fa-fighter-jet fa-5x"></i>
 					<h3>Fast usage</h3>
 					<p>Faster than ever</p>
@@ -154,6 +154,32 @@
 	  ga('create', 'UA-62485017-1', 'auto');
 	  ga('send', 'pageview');
 
+	</script>
+		<script>
+	// Include the UserVoice JavaScript SDK (only needed once on a page)
+	UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/TJmkSLrRAMcVDVduhS9iw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+	//
+	// UserVoice Javascript SDK developer documentation:
+	// https://www.uservoice.com/o/javascript-sdk
+	//
+
+	// Set colors
+	UserVoice.push(['set', {
+	  accent_color: '#6aba2e',
+	  trigger_color: 'white',
+	  trigger_background_color: '#6aba2e'
+	}]);
+
+
+	UserVoice.push(['identify', {
+	}]);
+
+	// Add default trigger to the bottom-right corner of the window:
+	UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right' }]);
+
+	// Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
+	UserVoice.push(['autoprompt', {}]);
 	</script>
   </body>
 </html>
