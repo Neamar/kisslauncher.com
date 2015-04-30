@@ -78,3 +78,22 @@ i
 {
 	color: #66BB6A;
 }
+
+footer
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #252525;
+	color: #f5f5f5;
+	margin-top: 10px;
+}
+
+a
+{
+	color: #66BB6A;
+}
+
+a:hover, a:active
+{
+	color: #5BA85F;
+}
