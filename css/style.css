@@ -2,7 +2,7 @@ header
 {
 	padding-top: 10vh;
 	background-color: #66BB6A;
-	height: 100vh;
+	min-height: 100vh;
 	color: #fff;
 }
 
@@ -10,7 +10,7 @@ section
 {
 	padding-top: 10vh;
 	padding-bottom: 10vh;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 footer
@@ -28,6 +28,7 @@ h1
 	font-weight: 100;
 	font-size: 32px;
 	padding-bottom: 25px;
+	padding-top: 15px;
 }
 
 header strong
