@@ -97,3 +97,19 @@ a:hover, a:active
 {
 	color: #5BA85F;
 }
+
+.btn-default
+{
+	color: #66BB6A;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus
+{
+	color: #66BB6A;
+	border-color:  #66BB6A;
+}
+
+.btn-beta
+{
+	margin-left: 10px;
+}
