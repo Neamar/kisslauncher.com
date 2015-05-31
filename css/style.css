@@ -123,3 +123,9 @@ a:hover, a:active
 	height: 80px;
 	width: 80px;
 }
+
+.call-action
+{
+	margin-top: 10px;
+	padding: 0px;
+}
