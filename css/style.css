@@ -26,17 +26,16 @@ h1, h2, h3, .beta
 h1
 {
 	font-weight: 100;
-	font-size: 24px;
-	padding-bottom: 25px;
+	font-size: 58px;
 	padding-top: 15px;
 }
 
-header strong
+.subtitle
 {
-	font-weight: 300;
-	font-size: 38px;
-	display: block;
+	margin-bottom: 40px;
+	font-size: 26px;
 }
+
 
 .beta
 {
@@ -52,8 +51,8 @@ h3
 }
 
 hr {
-  margin-top: 35px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #81C784;
 }
