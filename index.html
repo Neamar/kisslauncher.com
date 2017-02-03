@@ -1,41 +1,8 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="KISS Launcher" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://kisslauncher.com" />
-	<meta property="og:description" content="Blazingly fast launcher for Android" />
-	<meta property="og:image" content="http://kisslauncher.com/img/img-mobile-4.png" />
-	<meta property="og:server-url" content="http://kisslauncher.com" />
-	
-	<link href="img/favicon.png" rel="shortcut icon" type="image/png" />
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/kisslauncher.css">
-	<script src="js/modernizr.js"></script>
+---
+title: KISS Launcher | Blazingly fast launcher for Android
+layout: base
+---
 
-	<link href='http://fonts.googleapis.com/css?family=Roboto:500,100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-	<title>KISS Launcher | Blazingly fast launcher for Android</title>
-
-
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-62485017-1', 'auto');
-		ga('send', 'pageview');
-
-	</script>
-
-
-</head>
-<body>
 	<header class="cd-header cd-header-1" data-type="slider-item">
 		<div class="container">
 			<div class="row">
@@ -56,7 +23,7 @@
 				</div>
 				<div class="col-md-2">
 					<a target="_blank" href="https://play.google.com/store/apps/details?id=fr.neamar.kiss" class="btn btn-default btn-beta btn-lg btn-block link-download">Download</a>
-				</div>				
+				</div>
 			</div>
 		</div>
 	</header>
@@ -161,9 +128,9 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="footer">
-			<hr>	
+			<hr>
 			<p class="text-center">Made with <strong>love</strong> in France by <a href="http://www.sandoche.com" target="_blank">Sandoche</a> &amp; <a href="https://github.com/Neamar/" target="_blank">Neamar</a> &amp; <a href="https://twitter.com/benildeliotard" target="_blank">Bénilde</a></p>
 			<p class="text-center">
 				<a href="https://twitter.com/KissLauncher" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
@@ -172,8 +139,8 @@
 				<a href="https://github.com/Neamar/KISS" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
 			</p>
 		</div>
-		
-		
+
+
 	</footer>
 
 	<nav>
@@ -182,46 +149,3 @@
 			<li><a href="#0" class="cd-next">Prev</a></li>
 		</ul> <!-- cd-vertical-nav -->
 	</nav>
-	
-    <script type="text/javascript">
-if(navigator.userAgent.match(/[(;]\s*Android(?:\s+\d+(?:[.]\d+)*)?\s*[;)]/)) {
-	var download_links = document.getElementsByClassName("link-download");
-	for(var i = 0; i < download_links.length; i++) {
-		download_links[i].href = "market://details?id=fr.neamar.kiss";
-	}
-}
-    </script>
-	<script src="js/jquery-2.1.1.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/kisslauncher.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	
-	<script>
-	// Include the UserVoice JavaScript SDK (only needed once on a page)
-	UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/TJmkSLrRAMcVDVduhS9iw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
-
-	//
-	// UserVoice Javascript SDK developer documentation:
-	// https://www.uservoice.com/o/javascript-sdk
-	//
-
-	// Set colors
-	UserVoice.push(['set', {
-	  accent_color: '#66bb6a',
-	  trigger_color: 'white',
-	  trigger_background_color: '#66bb6a'
-	}]);
-
-
-	UserVoice.push(['identify', {
-	}]);
-
-	// Add default trigger to the bottom-right corner of the window:
-	UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right' }]);
-
-	// Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
-	UserVoice.push(['autoprompt', {}]);
-	</script>
-	
-</body>
-</html>
