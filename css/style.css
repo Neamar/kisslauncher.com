@@ -90,7 +90,6 @@ Main Components
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	font-size: 5.8rem;
-	padding-top: 75px;
 	color: #fff;
 	text-align: center;
 }
@@ -111,6 +110,16 @@ Main Components
   border-top: 1px solid #81C784;
 }
 
+.cd-header-1, .cd-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cd-footer {
+  padding-bottom: 150px;
+}
 
 @media only screen and (max-width: 768px) {
 	.cd-header h1
@@ -118,11 +127,10 @@ Main Components
 		font-family: 'Roboto', sans-serif;
 		font-weight: 100;
 		font-size: 3rem;
-		padding-top: 75px;
 		color: #fff;
 		text-align: center;
-	} 
-	
+	}
+
 	.cd-header .subtitle
 	{
 		font-family: 'Roboto', sans-serif;
@@ -136,7 +144,7 @@ Main Components
 	{
 		margin-top: 10px;
 	}
-	
+
 }
 
 
@@ -208,10 +216,20 @@ Main Components
 	{
 		text-align: center;
 	}
-	
+
 	.img-responsive {
     margin: 0 auto;
 	}
+
+  .logo
+  {
+  	padding: 0 30px;
+  }
+
+  .cd-footer {
+    display: block;
+    padding: 0;
+  }
 
 }
 
@@ -223,6 +241,7 @@ Main Components
 		position: absolute;
 		bottom: 0px;
 		width: 100%;
+    margin-top: 150px;
 	}
 
   .cd-fixed-background {
@@ -335,7 +354,7 @@ Main Components
 
 .logo
 {
-	margin-top: 10vh;
+	margin-bottom: 50px;
 }
 
 footer h2
@@ -377,5 +396,30 @@ footer a:hover, a:active
 
 .description
 {
-	margin-bottom: 80px;
+	margin-bottom: 30px;
+}
+
+.btn-full-width {
+  width: 100%;
+}
+
+.center-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__links {
+  font-size: 18px;
+}
+
+.row-cta {
+  margin-top: 30px;
+}
+
+.footer {
+  padding: 30px 30px 25px 30px;
+  border-top: 1px solid #eee;
 }
