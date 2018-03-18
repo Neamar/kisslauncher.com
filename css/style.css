@@ -121,8 +121,8 @@ Main Components
 		padding-top: 75px;
 		color: #fff;
 		text-align: center;
-	} 
-	
+	}
+
 	.cd-header .subtitle
 	{
 		font-family: 'Roboto', sans-serif;
@@ -136,7 +136,7 @@ Main Components
 	{
 		margin-top: 10px;
 	}
-	
+
 }
 
 
@@ -208,7 +208,7 @@ Main Components
 	{
 		text-align: center;
 	}
-	
+
 	.img-responsive {
     margin: 0 auto;
 	}
@@ -378,4 +378,16 @@ footer a:hover, a:active
 .description
 {
 	margin-bottom: 80px;
+}
+
+.btn-full-width {
+  width: 100%;
+}
+
+.center-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
