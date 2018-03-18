@@ -391,3 +391,7 @@ footer a:hover, a:active
   justify-content: center;
   align-items: center;
 }
+
+.footer__links {
+  font-size: 18px;
+}
