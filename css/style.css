@@ -118,7 +118,7 @@ Main Components
 }
 
 .cd-footer {
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -396,7 +396,7 @@ footer a:hover, a:active
 
 .description
 {
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 }
 
 .btn-full-width {
