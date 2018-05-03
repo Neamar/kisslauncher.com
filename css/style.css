@@ -423,3 +423,12 @@ footer a:hover, a:active
   padding: 30px 30px 25px 30px;
   border-top: 1px solid #eee;
 }
+
+
+a.faq {
+  display: block;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  font-size: 16px;
+}
