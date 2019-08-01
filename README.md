@@ -1,5 +1,5 @@
 # KISS Website
-Website of KISS Laucher: http://kisslauncher.com
+Website of KISS Laucher: https://kisslauncher.com
 
 ## Development
 ```
