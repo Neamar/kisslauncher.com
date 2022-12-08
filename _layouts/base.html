@@ -39,33 +39,5 @@ if(navigator.userAgent.match(/[(;]\s*Android(?:\s+\d+(?:[.]\d+)*)?\s*[;)]/)) {
 	<script src="js/main.js"></script>
 	<script src="js/kisslauncher.js"></script>
 	<script src="js/smoothscroll.js"></script>
-
-	<script>
-	// Include the UserVoice JavaScript SDK (only needed once on a page)
-	UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/TJmkSLrRAMcVDVduhS9iw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
-
-	//
-	// UserVoice Javascript SDK developer documentation:
-	// https://www.uservoice.com/o/javascript-sdk
-	//
-
-	// Set colors
-	UserVoice.push(['set', {
-	  accent_color: '#66bb6a',
-	  trigger_color: 'white',
-	  trigger_background_color: '#66bb6a'
-	}]);
-
-
-	UserVoice.push(['identify', {
-	}]);
-
-	// Add default trigger to the bottom-right corner of the window:
-	UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right' }]);
-
-	// Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
-	UserVoice.push(['autoprompt', {}]);
-	</script>
-
 </body>
 </html>
